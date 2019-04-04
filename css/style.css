@@ -1,7 +1,11 @@
 body {
-    padding-top: 5rem;
+    font-family: 'Lato', sans-serif !important;
 }
-.starter-template {
-    padding: 3rem 1.5rem;
-    text-align: center;
-}
+
+.slider-background{background-image: url(../images/home-banner.png);background-size: 100%;background-position: top left;}
+.main-menu .navbar-nav li > a{color: #fff;}
+.slider-section .text-logo{font-size: 60px;font-weight: 300;color: #111111;line-height: 1.23;}
+.slider-section .text-logo > img{height: 60px;}
+.slider-section .text-logo strong{font-weight: 600;}
+.slider-section .contain-slider{ font-size: 16px;color: #3f3f3f;line-height: 1.89;}
+.btn-warning{border: solid 2px #fea825 !important;background-color: #fea825 !important;border-radius: 2px !important;}
