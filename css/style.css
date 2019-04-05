@@ -23,14 +23,36 @@
 body {
 	font-family: 'Lato', sans-serif !important;
 }
-.slider-background {
-    background-image: url(../images/home-banner.png);
-    background-size: cover;
-    background-position: 0px center;
-    height: 780px;
-    position: relative;
-    background-repeat: no-repeat;
+.btn-default {
+    border: solid 2px #fea825;
+    border-radius: 2px;
+    transition: .3s all;
+    color: #fea825;
+    font-size: 18px;
+    padding:10px 40px;
+    font-weight: 600;
 }
+.btn-default:hover{
+    background-color: #fea825;
+    color: #ffffff;
+}
+ * .focus, *:focus{outline: none !important;box-shadow: none !important;}
+ .section-spacing{
+    padding-top: 80px;
+    padding-bottom: 80px;
+ }
+/* ===================================
+    Navbar 
+====================================== */
+
+
+.site-header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
 .main-menu{padding-top: 15px;}
 .main-menu .navbar-nav li > a {
     font-size: 17px;
@@ -47,10 +69,10 @@ body {
 .nav-item.active .nav-link {
     border-bottom: 4px solid #1b75bc;
 }
-.slider-section {
-    position: absolute;
-    top: 50%;
-}
+/* ===================================
+    Slider 
+====================================== */
+
 .slider-section .text-logo{
 	font-size: 60px;
 	font-weight: 300;
@@ -68,13 +90,63 @@ body {
 	color: #3f3f3f;
 	line-height: 1.89;
 }
-.btn-warning{
-	border: solid 2px #fea825 !important;
-	background-color: #fea825 !important;
-	border-radius: 2px !important;
+.main-slider-img {
+    max-width: 100%;
+    min-height: 90vh;
+    float: right;
+    max-height: 500px;
+    width: auto;
 }
-.btn_default{
-	padding: 15px 55px;
-	color: #ffffff;
-	font-size: 18px;
+.slider-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    margin: auto;
+}
+.slider-section {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+/*//siet default content*/
+
+.site-watermark-title {
+    color: #1b75bc;
+    font-size: 2.5rem;
+    font-weight: 600;
+    opacity: 0.12;
+    text-transform: uppercase;
+    letter-spacing: 8.4px;
+}
+.site-watermark-title span {
+    font-size: 4rem;
+    line-height: 40px;
+}
+/* ===================================
+    Services
+====================================== */
+
+.service-bg{
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+/* ===================================
+    Footer
+====================================== */
+
+footer {
+    /* background-color: #024376; */
+    padding: 80px 0px;
+    background-image: url(../images/footer-bg.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
