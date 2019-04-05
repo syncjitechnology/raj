@@ -1,11 +1,80 @@
-body {
-    font-family: 'Lato', sans-serif !important;
-}
+/* ===================================
+    RND Template Design
+====================================== */
 
-.slider-background{background-image: url(../images/home-banner.png);background-size: 100%;background-position: top left;}
-.main-menu .navbar-nav li > a{color: #fff;}
-.slider-section .text-logo{font-size: 60px;font-weight: 300;color: #111111;line-height: 1.23;}
-.slider-section .text-logo > img{height: 60px;}
-.slider-section .text-logo strong{font-weight: 600;}
-.slider-section .contain-slider{ font-size: 16px;color: #3f3f3f;line-height: 1.89;}
-.btn-warning{border: solid 2px #fea825 !important;background-color: #fea825 !important;border-radius: 2px !important;}
+/* ===================================
+    Table of Content
+====================================== */
+
+/*  - Fonts
+    - General CSS
+    - Home Page
+    - Case Study Page
+    - About Us Page 
+    - Blog Page
+    - Blog Details Page
+    - Contact Us Page
+    - Service
+    - Media Queries   */
+
+/* ===================================
+    General
+====================================== */
+body {
+	font-family: 'Lato', sans-serif !important;
+}
+.slider-background {
+    background-image: url(../images/home-banner.png);
+    background-size: cover;
+    background-position: 0px center;
+    height: 780px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.main-menu{padding-top: 15px;}
+.main-menu .navbar-nav li > a {
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    color: #ffffff;
+    font-family: lato;
+    padding: 0px 10px 10px;
+    margin: 0 5px;
+}
+.nav-item.active .nav-link {
+    border-bottom: 4px solid #1b75bc;
+}
+.slider-section {
+    position: absolute;
+    top: 50%;
+}
+.slider-section .text-logo{
+	font-size: 60px;
+	font-weight: 300;
+	color: #111111;
+	line-height: 80px;
+}
+.slider-section .text-logo > img{
+	height: 60px;
+}
+.slider-section .text-logo strong{
+	font-weight: 600;
+}
+.slider-section .contain-slider{
+	font-size: 18px;
+	color: #3f3f3f;
+	line-height: 1.89;
+}
+.btn-warning{
+	border: solid 2px #fea825 !important;
+	background-color: #fea825 !important;
+	border-radius: 2px !important;
+}
+.btn_default{
+	padding: 15px 55px;
+	color: #ffffff;
+	font-size: 18px;
+}
