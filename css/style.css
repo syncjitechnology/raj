@@ -22,6 +22,7 @@
 ====================================== */
 body {
 	font-family: 'Lato', sans-serif !important;
+    color: #111111;
 }
 .btn-default {
     border: solid 2px #fea825;
@@ -132,12 +133,130 @@ body {
     Services
 ====================================== */
 
-.service-bg{
+.bg-gray{
     background-image: url(../images/bg.png);
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
 }
+.bg-gray .section-spacing {
+    padding-top: 13rem;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  float: left;
+  margin-right: 15px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #fea825;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #fea825;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.switcher {
+    margin:30px 0px ; 
+}
+.switcher h4{
+    float: left;
+    margin:0px 15px ;
+}
+.switcher h5{
+    float: left;
+    color: #8b8d8f;
+    font-size: 1.5rem;
+}
+.content-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+.servieces-list{
+    margin: 25px 0px;
+}
+.service-item {
+    padding: 45px 50px 30px;
+    text-align: center;
+    width: 200px;
+    border-radius: 1px;
+    box-shadow: 0 1px 9px 0 rgba(27, 117, 188, 0.13);
+    background-color: #ffffff;
+    float: left;
+    margin:15px;
+    transition: .3s all;
+}
+.service-item img{
+    margin-bottom: 25px;
+}
+.service-item .img-white{
+    display: none;
+}
+.service-item:hover{
+    background-color: #1b75bc;
+}
+.service-item:hover h6{
+    color: #fff;
+}
+.service-item:hover .img-white{
+    display: block;
+}
+.service-item:hover .image-default {
+    display: none;
+}
+.service-item h6{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
 /* ===================================
     Footer
 ====================================== */
