@@ -29,3 +29,21 @@ Author:        HTMLmate
 
 /*  1 - media screen and (max-width: 1400px)
 ------------------------------------------------------------------------------------------ */
+
+@media screen and (max-width: 767px){
+  .main-menu{background-color: #Fff;margin-left: -15px;margin-right: -15px;box-shadow: 1px 1px 15px rgba(0,0,0,0.3);}
+  .slider-content{padding: 1rem;}
+  .slider-section .text-logo{font-size: 40px;line-height: 40px;}
+  .slider-section .text-logo > img{height: 25px;}
+  .slider-section .contain-slider{font-size: 14px;}
+  .main-slider-img{height: 75vh;min-height: inherit;}
+  .site-header .navbar-toggler{background-color: #1b75bc;color: #Fff;cursor: pointer;}
+  .main-menu .navbar-nav li > a{color: #222;margin-bottom: 1rem;}
+  .main-menu ul.navbar-nav{margin-top:1rem; }
+}
+@media screen and (max-width: 997px){
+  .main-menu{background-color: #Fff;margin-left: -15px;margin-right: -15px;box-shadow: 1px 1px 15px rgba(0,0,0,0.3);}
+  .site-header .navbar-toggler{background-color: #1b75bc;color: #Fff;cursor: pointer;}
+  .main-menu .navbar-nav li > a{color: #222;margin-bottom: 1rem;}
+  .main-menu ul.navbar-nav{margin-top:1rem; }
+}

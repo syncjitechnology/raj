@@ -135,11 +135,11 @@ body {
 
 .bg-gray{
     background-image: url(../images/bg.png);
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: top center;
     background-repeat: no-repeat;
 }
-.bg-gray .section-spacing {
+.services .section-spacing {
     padding-top: 13rem;
 }
 .switch {
@@ -223,18 +223,23 @@ input:checked + .slider:before {
     margin: 25px 0px;
 }
 .service-item {
-    padding: 45px 50px 30px;
+    padding: 5px;
     text-align: center;
-    width: 200px;
+    width: 160px;
+    height: 160px;
     border-radius: 1px;
     box-shadow: 0 1px 9px 0 rgba(27, 117, 188, 0.13);
     background-color: #ffffff;
-    float: left;
-    margin:15px;
+    margin: 10px;
     transition: .3s all;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
-.service-item img{
-    margin-bottom: 25px;
+.service-item img {
+    margin-bottom: 10px;
+    height: 60px;
+    align-self: center;
 }
 .service-item .img-white{
     display: none;
@@ -269,3 +274,15 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.text-contain{color: #3f3f3f;}
+.arrow-link img{height: 30px;margin-right: 5px;}
+.arrow-link{color: #fea825;font-size: 16px;line-height: 30px;opacity: 0.8;}
+.arrow-link:hover{opacity: 1;color: #fea825 !important;text-decoration: none;}
+.text-blue{color: #1b75bc !important;}
+.text-blue.arrow-link:hover{color: #1b75bc !important;}
+.case-study-section .our-story-img{margin-bottom: 1rem;}
+.case-study-section .site-default-content{margin-bottom: 1rem;}
+
+
+
