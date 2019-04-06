@@ -42,6 +42,12 @@ body {
     padding-top: 80px;
     padding-bottom: 80px;
  }
+ a:hover{
+  text-decoration: none;
+ }
+ .pl-50{
+  padding-left: 50px;
+ }
 /* ===================================
     Navbar 
 ====================================== */
@@ -268,13 +274,84 @@ input:checked + .slider:before {
 
 footer {
     /* background-color: #024376; */
-    padding: 80px 0px;
+    padding: 6rem 0px 0px;
     background-image: url(../images/footer-bg.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+footer .site-watermark-title{
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 2px;
+  opacity: 1;
+}
+footer .site-watermark-title span{
+  font-size: 18px;
+}
+footer ul{  
+    list-style: none;
+    padding-left: 0;
+}
+footer .company-link li > a{  
+    color: #fff;
+    letter-spacing: normal;
+    line-height: 2.43;
+    font-size: 14px;
+}
+footer .social-link li:first-child {
+  margin-left: 0px;
+}
+footer .social-link li {
+    height: 40px;
+    display: inline-block;
+    width: 40px;
+    background:  #012e51;
+    text-align: center;
+    margin-left: 10px;
+    transition: .3s all;
+}
+footer .social-link li:hover {
+  cursor: pointer;
+  background-color: #fea825;
+}
+footer .social-link li:hover a {
+  color: #fff;
+}
+footer .social-link li a{
+  color: #6190b5;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;  
+  background-color:;
+  text-align: center;
+  transition: .3s all;
+}
+.newsletter input {
+    padding: 8px 15px;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    position: relative;
+}
+.submit-icon {
+    position: absolute;
+    right: 15px;
+    bottom: 7px;
+    color: #464855;
+}
+.semi-footer{
+  border:1px solid rgba(255, 255, 255,.3);
+  background-color: #024376;
+  padding: 25px 0px;
+  text-align: center;
+}
+.semi-footer p, .semi-footer a{
+  font-size: 15px;
+  line-height: 1.07;
+  color: #fff;
+}
 .text-contain{color: #3f3f3f;}
 .arrow-link img{height: 30px;margin-right: 5px;}
 .arrow-link{color: #fea825;font-size: 16px;line-height: 30px;opacity: 0.8;}

@@ -40,10 +40,35 @@ Author:        HTMLmate
   .site-header .navbar-toggler{background-color: #1b75bc;color: #Fff;cursor: pointer;}
   .main-menu .navbar-nav li > a{color: #222;margin-bottom: 1rem;}
   .main-menu ul.navbar-nav{margin-top:1rem; }
+  .bg-gray{background-size: cover;}
+  .section-spacing{padding-top: 40px; padding-bottom: 40px;
+  }
 }
 @media screen and (max-width: 997px){
   .main-menu{background-color: #Fff;margin-left: -15px;margin-right: -15px;box-shadow: 1px 1px 15px rgba(0,0,0,0.3);}
   .site-header .navbar-toggler{background-color: #1b75bc;color: #Fff;cursor: pointer;}
   .main-menu .navbar-nav li > a{color: #222;margin-bottom: 1rem;}
   .main-menu ul.navbar-nav{margin-top:1rem; }
+}
+@media screen and (max-width: 414px){
+  .footer-logo{
+    margin-bottom: 25px;
+  }
+  .pl-50{
+    padding-left: 15px !important;
+  }
+}
+@media screen and (max-width: 320px){
+  footer .social-link li{
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+  }
+  footer .social-link li a{
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .services .section-spacing {
+    padding-top: 8rem;
+}
 }
