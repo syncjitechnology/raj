@@ -48,6 +48,12 @@ body {
  .pl-50{
   padding-left: 50px;
  }
+ .pb-80{
+  padding-bottom: 80px;
+ }
+ .text-logo{
+  max-width: 600px;
+ }
 /* ===================================
     Navbar 
 ====================================== */
@@ -300,10 +306,10 @@ footer .company-link li > a{
     line-height: 2.43;
     font-size: 14px;
 }
-footer .social-link li:first-child {
+.social-link li:first-child {
   margin-left: 0px;
 }
-footer .social-link li {
+.social-link li {
     height: 40px;
     display: inline-block;
     width: 40px;
@@ -312,14 +318,14 @@ footer .social-link li {
     margin-left: 10px;
     transition: .3s all;
 }
-footer .social-link li:hover {
+.social-link li:hover {
   cursor: pointer;
   background-color: #fea825;
 }
-footer .social-link li:hover a {
+ .social-link li:hover a {
   color: #fff;
 }
-footer .social-link li a{
+.social-link li a{
   color: #6190b5;
   height: 40px;
   width: 40px;
@@ -361,5 +367,37 @@ footer .social-link li a{
 .case-study-section .our-story-img{margin-bottom: 1rem;}
 .case-study-section .site-default-content{margin-bottom: 1rem;}
 
+/* ===================================
+    Blog Page CSS 
+====================================== */
+.blog-section .text-logo > span{
+    font-weight: 500;
+}
+.contain-slider{
+  max-width: 600px;
+}
+/* ===================================
+    Blog Details Page CSS 
+====================================== */
+.slider-social{
+  margin-top: 30px;
+}
+.slider-social .social-link li{
+  background-color: #e3eef7;
+}
+.slider-social .social-link li:hover{
+  background-color: #024376;
+}
+.blog-details h5{
+  font-size: 20px;
+  font-weight: 600;
+}
+.blog-details p{
+  font-size: 16px;
+  color: #3f3f3f;
+}
 
-
+.bg-gray.more-blogs{
+  padding-top: 100px;
+  margin-bottom: -8rem;
+}

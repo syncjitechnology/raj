@@ -49,6 +49,16 @@ Author:        HTMLmate
   .site-header .navbar-toggler{background-color: #1b75bc;color: #Fff;cursor: pointer;}
   .main-menu .navbar-nav li > a{color: #222;margin-bottom: 1rem;}
   .main-menu ul.navbar-nav{margin-top:1rem; }
+   .site-default-content .site-main-title{font-size: 1.2rem; margin-bottom: 25px;}
+  .blog-item img {width: 100%;margin-bottom: 15px;}
+  .bg-gray.more-blogs {
+    background-size: cover;
+    padding-top: 14rem;
+    margin-top: -8rem;
+    margin-bottom: 0;
+}
+  .section-spacing{padding-top: 40px; padding-bottom: 40px;}
+
 }
 @media screen and (max-width: 414px){
   .footer-logo{
@@ -57,6 +67,12 @@ Author:        HTMLmate
   .pl-50{
     padding-left: 15px !important;
   }
+  .site-default-content .site-main-title{
+    font-size: 18px;
+    margin-bottom: 20px !important;
+  }
+  .site-watermark-title{font-size: 1.8rem;}
+  .bg-gray.more-blogs {padding-top: 8rem;margin-top: -3rem;}
 }
 @media screen and (max-width: 320px){
   footer .social-link li{
@@ -71,4 +87,5 @@ Author:        HTMLmate
   .services .section-spacing {
     padding-top: 8rem;
 }
+
 }
