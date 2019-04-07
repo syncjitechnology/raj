@@ -440,19 +440,19 @@ footer .company-link li > a{
   line-height: 1.56;
   font-weight: 600;
 }
-.form-group input, .form-group textarea{
+.contact-form .form-group input,.contact-form  .form-group textarea{
     color:#c7d7e4 !important;
     font-size: 16px;
     font-weight: 500;
 }
-input[type=text], select, textarea {
+.contact-form input[type=text],.contact-form select,.contact-form textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */  
   border: solid 1px #c7d7e4; /* Gray border */
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
+  margin-bottom: 0px; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */  
 }
 .laptop-bg{
@@ -466,9 +466,21 @@ input[type=text], select, textarea {
     Contact Us Page CSS 
 ====================================== */
 .left-service-bg{
-  position: relative;
+    position: relative;
+    background-image: url(../images/bg-card-left.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;  
 }
-.left-card{  
-  left: 0;
-  position: absolute;
+.service-item-image{
+    position: absolute;
+    left: 10rem;
+    margin-top: 2rem;
+}
+.left-service-bg .service-item {
+    margin-top: 5rem;
+    margin-right: 2rem;
+    width: 200px;
+    height: 200px;
 }
