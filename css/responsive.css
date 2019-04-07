@@ -29,7 +29,9 @@ Author:        HTMLmate
 
 /*  1 - media screen and (max-width: 1400px)
 ------------------------------------------------------------------------------------------ */
-
+@media screen and (max-width: 1400px){
+  .submit-icon{bottom: 28px;}
+}
 @media screen and (max-width: 767px){
   .main-menu{background-color: #Fff;margin-left: -15px;margin-right: -15px;box-shadow: 1px 1px 15px rgba(0,0,0,0.3);}
   .slider-content{padding: 1rem;}
@@ -43,6 +45,7 @@ Author:        HTMLmate
   .bg-gray{background-size: cover;}
   .section-spacing{padding-top: 40px; padding-bottom: 40px;
   }
+  .laptop-bg{background-image: none !important;}
 }
 @media screen and (max-width: 997px){
   .main-menu{background-color: #Fff;margin-left: -15px;margin-right: -15px;box-shadow: 1px 1px 15px rgba(0,0,0,0.3);}
@@ -71,8 +74,9 @@ Author:        HTMLmate
     font-size: 18px;
     margin-bottom: 20px !important;
   }
-  .site-watermark-title{font-size: 1.8rem;}
+  .site-watermark-title{font-size: 1.8rem;line-height: 3;}
   .bg-gray.more-blogs {padding-top: 8rem;margin-top: -3rem;}
+  .laptop-bg{background-image: none !important;}
 }
 @media screen and (max-width: 320px){
   footer .social-link li{

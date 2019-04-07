@@ -23,6 +23,13 @@
 body {
 	font-family: 'Lato', sans-serif !important;
     color: #111111;
+    font-size: 16px;    
+}
+p{
+  color: #3f3f3f;
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 500;
 }
 .btn-default {
     border: solid 2px #fea825;
@@ -54,6 +61,18 @@ body {
  .text-logo{
   max-width: 600px;
  }
+ ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #c7d7e4;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color:#c7d7e4;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #c7d7e4;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #c7d7e4;
+}
 /* ===================================
     Navbar 
 ====================================== */
@@ -82,6 +101,7 @@ body {
 .nav-item.active .nav-link {
     border-bottom: 4px solid #1b75bc;
 }
+
 /* ===================================
     Slider 
 ====================================== */
@@ -140,6 +160,9 @@ body {
 .site-watermark-title span {
     font-size: 4rem;
     line-height: 40px;
+}
+textarea {
+    resize: none !important;
 }
 /* ===================================
     Services
@@ -396,8 +419,56 @@ footer .company-link li > a{
   font-size: 16px;
   color: #3f3f3f;
 }
-
 .bg-gray.more-blogs{
   padding-top: 100px;
   margin-bottom: -8rem;
+}
+/* ===================================
+    Contact Us Page CSS 
+====================================== */
+.contact-details{
+  margin: 30px 0px 50px;
+}
+.contact-details h5{
+   color: #1b75bc;
+   font-weight: bold;
+   font-size: 24px;
+   margin-bottom: 15px;
+}
+.contact-details p{
+  margin-bottom: 5px;
+  line-height: 1.56;
+  font-weight: 600;
+}
+.form-group input, .form-group textarea{
+    color:#c7d7e4 !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: solid 1px #c7d7e4; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */  
+}
+.laptop-bg{
+    padding: 6rem 0px 0px;
+    background-image: url(../images/laptop-img.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+/* ===================================
+    Contact Us Page CSS 
+====================================== */
+.left-service-bg{
+  position: relative;
+}
+.left-card{  
+  left: 0;
+  position: absolute;
 }
