@@ -535,5 +535,8 @@ body.dark{background-color: #404040;color:#fff;}
 .dark .service-item h6{color:#222;}
 .dark .service-item:hover h6{color:#fff;}
 .dark .switcher h4 {color:#0a3558;}
+.dark .service-section .switcher h4 {color: #606060;}
 .dark .switcher h5 {color:#fff;} 
+.dark .left-service-bg:after{background-image: url(../images/dark-card-bg-left.png);}
+.dark .right-service-bg .left-service-bg:after {background-image: url(../images/dark-card-bg-right.png);
 
