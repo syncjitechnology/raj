@@ -517,7 +517,7 @@ footer .company-link li > a{
 }
 
 /*dark*/
-.dark .site-header{    background: #404040;}
+.dark .site-header{background:transparent;}
 body.dark{background-color: #404040;color:#fff;}
 .dark p{color: #fff;}
 .dark .bg-gray{background-image: url(../images/dark-bg.png);}
@@ -534,3 +534,6 @@ body.dark{background-color: #404040;color:#fff;}
 .dark .service-item:hover{background-color: #fea825;}
 .dark .service-item h6{color:#222;}
 .dark .service-item:hover h6{color:#fff;}
+.dark .switcher h4 {color:#0a3558;}
+.dark .switcher h5 {color:#fff;} 
+
