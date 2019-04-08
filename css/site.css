@@ -27,10 +27,17 @@
 .abutusslider-section .owl-nav{position: absolute;left: 0;    right: 20.1rem;    bottom: 6rem;}
 
 
+.dark{}
+
 @media (min-width: 767px) and (max-width: 1024px){
 	.smartslider-owl .owl-nav{margin-right: 21rem;}
+	.servieces-list{justify-content: center;}
 }
 @media screen and (max-width: 767px){
 	.smart-slider-contain-position{margin-top: 1rem;margin-right: 0;}
 	.smart-slider-contain-position{z-index: 0;}
+	.servieces-list{flex-wrap: wrap;}
+	.service-item{height: 140px;width: 140px;margin:5px;}
+	.servieces-list > div {justify-content: center;display: flex;flex-wrap: wrap;width:100%;}
 }
+
