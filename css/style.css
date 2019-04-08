@@ -503,6 +503,33 @@ footer .company-link li > a{
     width: 200px;
     height: 200px;
 }
+.right-bg-logo:after {
+    content: '';
+    background-image: url(../images/dark-bg-logo.png);
+    width: 100%;
+    top: 13rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    height: 200px;
+    background-position: right;
+}
+.right-bg-logo{position: static;}
+.right-bg-logo:after {
+    content: '';
+    background-image: url(../images/dark-bg-logo.png);
+    width: 100%;
+    top: 13rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    height: 200px;
+    background-position: right;
+}
 
 /* right service pattern */
 .right-service-bg .left-service-bg:after {
@@ -554,4 +581,5 @@ body.dark{background-color: #404040;color:#fff;}
 .dark .left-service-bg:after{background-image: url(../images/dark-card-bg-left.png);}
 .dark .right-service-bg .left-service-bg:after {background-image: url(../images/dark-card-bg-right.png);}
 .dark .contact-details h5{color: #fff;}
+
 
