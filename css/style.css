@@ -293,6 +293,18 @@ input:checked + .slider:before {
     font-weight: 600;
     margin-bottom: 0px;
 }
+.right-bg-logo:after {
+    content: '';
+    background-image: url(../images/dark-bg-logo.png);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-size: 36rem 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    left: 0;  
+}
 
 /* ===================================
     Footer
@@ -538,5 +550,6 @@ body.dark{background-color: #404040;color:#fff;}
 .dark .service-section .switcher h4 {color: #606060;}
 .dark .switcher h5 {color:#fff;} 
 .dark .left-service-bg:after{background-image: url(../images/dark-card-bg-left.png);}
-.dark .right-service-bg .left-service-bg:after {background-image: url(../images/dark-card-bg-right.png);
+.dark .right-service-bg .left-service-bg:after {background-image: url(../images/dark-card-bg-right.png);}
+.dark .contact-details h5{color: #fff;}
 
