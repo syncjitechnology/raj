@@ -73,6 +73,7 @@ p{
 :-moz-placeholder { /* Firefox 18- */
   color: #c7d7e4;
 }
+
 /* ===================================
     Navbar 
 ====================================== */
@@ -537,7 +538,7 @@ body.dark{background-color: #404040;color:#fff;}
 .dark .smart-slider-contain p{color: #fff;}
 .dark .site-watermark-title{color: #fff;opacity: 0.3}
 .dark footer .site-watermark-title{color: #fff;opacity: 1}
-.dark .contact-form  input, .dark .contact-form  textarea{background-color: transparent !important;border: 1px solid rgba(255,255,255,0.3);}
+.dark .contact-form  input, .dark .contact-form  textarea{background-color: transparent !important;border: 1px solid rgba(255,255,255,0.3);color: #fff;}
 
 .dark .laptop-bg{background: url(../images/dark-laptop-img.png) #404040 right no-repeat;}
 .dark footer{background-image: url(../images/dark-footer-bg.png);}
