@@ -515,3 +515,22 @@ footer .company-link li > a{
     margin-top: -24rem;
     padding-top: 12rem;
 }
+
+/*dark*/
+.dark .site-header{    background: #404040;}
+body.dark{background-color: #404040;color:#fff;}
+.dark p{color: #fff;}
+.dark .bg-gray{background-image: url(../images/dark-bg.png);}
+.dark .smart-slider-contain{background-color: #404040;}
+.dark .smart-slider-contain p{color: #fff;}
+.dark .site-watermark-title{color: #fff;opacity: 0.3}
+.dark .contact-form  input, .dark .contact-form  textarea{background-color: transparent !important;border: 1px solid rgba(255,255,255,0.3);}
+
+.dark .laptop-bg{background: url(../images/dark-laptop-img.png) #404040 right no-repeat;}
+.dark footer{background-image: url(../images/dark-footer-bg.png);}
+.dark .semi-footer{background-color: #0162b0;}
+.dark .slider-section .text-logo{color:#fff;}
+.dark .slider-section .contain-slider{color:#fff;}
+.dark .service-item:hover{background-color: #fea825;}
+.dark .service-item h6{color:#222;}
+.dark .service-item:hover h6{color:#fff;}

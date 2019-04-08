@@ -53,7 +53,11 @@ Author:        HTMLmate
   .bg-gray.more-blogs {background-size: cover;padding-top: 14rem;margin-top: -8rem;margin-bottom: 0;}
   .section-spacing{padding-top: 40px; padding-bottom: 40px;}
   .testimonial-bg-gray {margin-top: -15rem;padding-top: 9rem;}
-
+  .client-list .client-item{width: calc(50% - 2px);min-height: 150px;border-top: 1px solid #cfd9e2; border-left: 1px solid #cfd9e2;}
+  .client-item.border-right-0{border-right: 1px solid #cfd9e2 !important;}
+  .client-item.border-bottom-0{border-bottom: 1px solid #cfd9e2 !important;}  
+  .slider-section  {margin-top: 5rem;background-color: #f7f7f7; }
+  .slider-section > img{opacity: 0;}
 }
 /*  4 - media screen and (max-width: 767px)
 ------------------------------------------------------------------------------------------ */
@@ -75,8 +79,6 @@ Author:        HTMLmate
   .right-service-bg .service-item {float: none;}
   .service-item{display: inline-flex;margin-top: 10px !important;}
   .service-content{text-align: center;}
-  .slider-section  {margin-top: 5rem;background-color: #f7f7f7; }
-  .slider-section > img{opacity: 0;}
   .about-slider .about-slider-img{width: 100%;}
   .about-slider .about-contain{width: auto;}
   .abutusslider-section .owl-nav{left: inherit;right: 0px;bottom: inherit;}
@@ -90,7 +92,6 @@ Author:        HTMLmate
   .site-default-content .site-main-title{font-size: 18px;margin-bottom: 20px !important;}
   .site-watermark-title{font-size: 1.8rem;line-height: 3;}
   .bg-gray.more-blogs {padding-top: 8rem;margin-top: -3rem;}
-  .laptop-bg{background-image: none !important;}
   .site-default-content{text-align: center;}
   .vision-content p{text-align: justify;}  
   .laptop-bg{background-image: none !important;background-color: #f7f7f7;}
