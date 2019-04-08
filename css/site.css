@@ -26,8 +26,8 @@
 .abutusslider-section .owl-prev:hover,.abutusslider-section .owl-next:hover{opacity: 1;}
 .abutusslider-section .owl-nav{position: absolute;left: 0;    right: 20.1rem;    bottom: 6rem;}
 
-
-.dark{}
+.mt-10rem{margin-top: 10rem;}
+.dark .service-item{width: 195px;height: 195px;}
 
 @media (min-width: 767px) and (max-width: 1024px){
 	.smartslider-owl .owl-nav{margin-right: 21rem;}
@@ -39,5 +39,7 @@
 	.servieces-list{flex-wrap: wrap;}
 	.service-item{height: 140px;width: 140px;margin:5px;}
 	.servieces-list > div {justify-content: center;display: flex;flex-wrap: wrap;width:100%;}
+	.dark .service-item{width: 150px;height: 150px;margin: 3px;}
+	.dark .mt-10rem{margin-top: 0rem;}
 }
 
