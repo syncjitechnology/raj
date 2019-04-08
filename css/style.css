@@ -185,13 +185,11 @@ textarea {
   float: left;
   margin-right: 15px;
 }
-
 .switch input { 
   opacity: 0;
   width: 0;
   height: 0;
 }
-
 .slider {
   position: absolute;
   cursor: pointer;
@@ -215,7 +213,6 @@ textarea {
   -webkit-transition: .4s;
   transition: .4s;
 }
-
 input:checked + .slider {
   background-color: #fea825;
 }
@@ -454,6 +451,7 @@ footer .company-link li > a{
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 0px; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */  
+  background-color:transparent !important;
 }
 .laptop-bg{
     padding: 6rem 0px 0px;
@@ -465,13 +463,21 @@ footer .company-link li > a{
 /* ===================================
     Contact Us Page CSS 
 ====================================== */
-.left-service-bg{
-    position: relative;
+.left-service-bg {
+    position: static;
+    padding: 0rem 0 6rem;
+}
+.left-service-bg:after{
+    content: '';
     background-image: url(../images/bg-card-left.png);
-    background-size: contain;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-size: 36rem 100%;
     background-repeat: no-repeat;
-    height: 450px;
-    display: flex;  
+    position: absolute;
+    z-index: -1;
+    left: 0;  
 }
 .service-item-image{
     position: absolute;
@@ -483,4 +489,29 @@ footer .company-link li > a{
     margin-right: 2rem;
     width: 200px;
     height: 200px;
+}
+
+/* right service pattern */
+.right-service-bg .left-service-bg:after {
+    content: '';
+    background-image: url(../images/bg-card-right.png);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-size: 36rem 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    background-position: right;
+}
+.right-service-bg .left-service-bg {
+    position: static;
+}
+.right-service-bg .service-item {
+    float: right;
+}
+.testimonial-bg-gray{
+    margin-top: -24rem;
+    padding-top: 12rem;
 }

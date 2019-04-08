@@ -30,12 +30,15 @@ Author:        HTMLmate
 /*  1 - media screen and (max-width: 1400px)
 ------------------------------------------------------------------------------------------ */
 @media screen and (max-width: 1400px){
-  .submit-icon{bottom: 28px;}
+  .right-service-bg .left-service-bg:after,.left-service-bg:after{
+    background-size: 25rem 100%;
+  }
 }
 /*  2 - media screen and (max-width: 1100px)
 ------------------------------------------------------------------------------------------ */
 @media screen and (max-width: 1100px){
   .main-slider-img{min-height: auto;}
+  .right-service-bg .left-service-bg:after, .left-service-bg:after {background-size: 20rem 100%;}
 }
 
 /*  3 - media screen and (max-width: 997px)
@@ -47,21 +50,18 @@ Author:        HTMLmate
   .main-menu ul.navbar-nav{margin-top:1rem; }
    .site-default-content .site-main-title{font-size: 1.2rem; margin-bottom: 25px;}
   .blog-item img {width: 100%;margin-bottom: 15px;}
-  .bg-gray.more-blogs {
-    background-size: cover;
-    padding-top: 14rem;
-    margin-top: -8rem;
-    margin-bottom: 0;
-}
+  .bg-gray.more-blogs {background-size: cover;padding-top: 14rem;margin-top: -8rem;margin-bottom: 0;}
   .section-spacing{padding-top: 40px; padding-bottom: 40px;}
+  .testimonial-bg-gray {margin-top: -15rem;padding-top: 9rem;}
 
 }
 /*  4 - media screen and (max-width: 767px)
 ------------------------------------------------------------------------------------------ */
 @media screen and (max-width: 767px){
   .main-menu{background-color: #Fff;margin-left: -15px;margin-right: -15px;box-shadow: 1px 1px 15px rgba(0,0,0,0.3);}
-  .slider-content{padding: 1rem;}
-  .slider-section .text-logo{font-size: 40px;line-height: 40px;}
+  .slider-content{padding: 1rem; text-align: center;}
+  .text-logo br{display: none;}
+  .slider-section .text-logo{font-size: 40px;line-height: 50px;}
   .slider-section .text-logo > img{height: 25px;}
   .slider-section .contain-slider{font-size: 14px;}
   .main-slider-img{height: 75vh;min-height: inherit;}
@@ -69,43 +69,38 @@ Author:        HTMLmate
   .main-menu .navbar-nav li > a{color: #222;margin-bottom: 1rem;}
   .main-menu ul.navbar-nav{margin-top:1rem; }
   .bg-gray{background-size: cover;}
-  .section-spacing{padding-top: 40px; padding-bottom: 40px;
-  }
-  .laptop-bg{background-image: none !important;}
+  .section-spacing{padding-top: 40px; padding-bottom: 40px; }
+  .right-service-bg .left-service-bg:after, .left-service-bg:after {display: none;}
+  .left-service-bg{position: relative;text-align:justify;padding: 0  0 10px;text-align: center;}
+  .right-service-bg .service-item {float: none;}
+  .service-item{display: inline-flex;margin-top: 10px !important;}
+  .service-content{text-align: center;}
+  .slider-section  {margin-top: 5rem;background-color: #f7f7f7; }
+  .slider-section > img{opacity: 0;}
+  .about-slider .about-slider-img{width: 100%;}
+  .about-slider .about-contain{width: auto;}
+  .abutusslider-section .owl-nav{left: inherit;right: 0px;bottom: inherit;}
 }
 
 /*  5 - media screen and (max-width: 414px)
 ------------------------------------------------------------------------------------------ */
 @media screen and (max-width: 414px){
-  .footer-logo{
-    margin-bottom: 25px;
-  }
-  .pl-50{
-    padding-left: 15px !important;
-  }
-  .site-default-content .site-main-title{
-    font-size: 18px;
-    margin-bottom: 20px !important;
-  }
+  .footer-logo{margin-bottom: 25px;}
+  .pl-50{padding-left: 15px !important;}
+  .site-default-content .site-main-title{font-size: 18px;margin-bottom: 20px !important;}
   .site-watermark-title{font-size: 1.8rem;line-height: 3;}
   .bg-gray.more-blogs {padding-top: 8rem;margin-top: -3rem;}
   .laptop-bg{background-image: none !important;}
+  .site-default-content{text-align: center;}
+  .vision-content p{text-align: justify;}  
+  .laptop-bg{background-image: none !important;background-color: #f7f7f7;}
 }
 
 /*  6 - media screen and (max-width: 320px)
 ------------------------------------------------------------------------------------------ */
 @media screen and (max-width: 320px){
-  footer .social-link li{
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-  }
-  footer .social-link li a{
-    font-size: 14px;
-    line-height: 30px;
-  }
-  .services .section-spacing {
-    padding-top: 8rem;
-}
+  footer .social-link li{height: 30px;width: 30px;line-height: 30px;}
+  footer .social-link li a{font-size: 14px;line-height: 30px;}
+  .services .section-spacing {padding-top: 8rem;}
 
 }
